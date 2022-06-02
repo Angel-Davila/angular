@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { pipeline } from 'stream';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular';
+  public showNavbar = 1;
+
+  login() {
+    
+  }
 }
